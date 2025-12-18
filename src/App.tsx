@@ -4,7 +4,11 @@ import './App.css';
 import BuscaCep from './pages/BuscaCep';
 
 function App() {
-  return (<BuscaCep/>)
+  return (
+    <div className='BuscaCep'>
+      <BuscaCep/>
+    </div>
+  )
   // return (
   //   <div className="App">
   //     <header className="App-header">
