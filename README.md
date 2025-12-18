@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -43,4 +43,46 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn React, check out the [React documentation](https://reactjs.org/). -->
+
+
+# 📰 Notícias API — Frontend
+
+Frontend desenvolvida com React (TypeScript) para gerenciamento de notícias, e busca de informações pelo cep como parte de uma prova técnica.
+
+# Como configurar
+
+- Pré-Requisitos:
+  - Node.js (versão 18 ou superior)
+  - NPM
+
+Crie na raiz do projeto um arquivo .env.local com a seguinte variável:
+
+```
+REACT_APP_API_URL=http://localhost:3001
+```
+
+# Como executar localmente:
+Instale as dependências 
+```
+npm install
+```
+
+Rode a aplicação projeto
+```
+npm start
+```
+
+# Executando os testes
+```
+npm test
+```
+
+
+# Observações 
+- Ainda a implementar:
+  - CRUD completo com integração com backend (No momento funciona apenas o GET)
+
+  - Dockerização do projeto
+
+  - Melhorias na estilização 
