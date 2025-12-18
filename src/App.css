@@ -1,4 +1,9 @@
-.App {
+.App{
+  background-color: aquamarine;
+  height: 100vh;
+}
+
+.Choices {
   text-align: center;
 }
 
